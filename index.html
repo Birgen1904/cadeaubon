@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Cadeaubon</title>
   <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -15,34 +16,38 @@
         #E30613 80px
       );
       text-align: center;
-      padding: 3rem;
+      padding: 1.5rem;
       min-height: 100vh;
+      box-sizing: border-box;
     }
     .card {
       background: white;
-      max-width: 420px;
+      width: 100%;
+      max-width: 520px; /* groter dan voordien */
       margin: auto;
-      padding: 2.5rem 2rem;
-      border-radius: 16px;
+      padding: 3rem 2.2rem; /* meer ruimte */
+      border-radius: 18px;
       box-shadow: 0 15px 40px rgba(0,0,0,0.25);
     }
     h1 {
       color: #E30613;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
     }
     p.message {
-      font-size: 1.1rem;
-      line-height: 1.5;
-      margin-bottom: 2rem;
+      font-size: 1.25rem;
+      line-height: 1.6;
+      margin-bottom: 2.5rem;
     }
     a.button {
       display: inline-block;
-      padding: 1rem 1.8rem;
+      padding: 1.2rem 2.2rem;
       background: #E30613;
       color: #FFD200;
       font-weight: bold;
+      font-size: 1.1rem;
       text-decoration: none;
-      border-radius: 10px;
+      border-radius: 12px;
       transition: transform 0.1s ease, background 0.1s ease;
     }
     a.button:hover {
@@ -50,8 +55,8 @@
       transform: scale(1.03);
     }
     footer {
-      margin-top: 2rem;
-      font-size: 0.9rem;
+      margin-top: 2.5rem;
+      font-size: 1rem;
       color: #555;
     }
   </style>
@@ -71,9 +76,4 @@
     </a>
 
     <footer>
-      Veel plezier!
-    </footer>
-  </div>
-
-</body>
-</html>
+      Veel plezie
